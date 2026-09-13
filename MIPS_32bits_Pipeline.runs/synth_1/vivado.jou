@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Jun 27 15:33:17 2025
+# Process ID         : 27640
+# Current directory  : C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.runs/synth_1
+# Command line       : vivado.exe -log MIPSpipeline.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MIPSpipeline.tcl
+# Log file           : C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.runs/synth_1/MIPSpipeline.vds
+# Journal file       : C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.runs/synth_1\vivado.jou
+# Running On         : Avenger
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16835 MB
+# Swap memory        : 18253 MB
+# Total Virtual      : 35088 MB
+# Available Virtual  : 20899 MB
+#-----------------------------------------------------------
+source MIPSpipeline.tcl -notrace

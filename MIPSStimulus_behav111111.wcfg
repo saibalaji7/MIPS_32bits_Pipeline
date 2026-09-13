@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MIPSStimulus_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MIPSStimulus" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.0000 ns"></ZoomStartTime>
+      <ZoomEndTime time="20.6719 ns"></ZoomEndTime>
+      <Cursor1Time time="5.3680 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/MIPSStimulus/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPSStimulus/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1164" type="group">
+      <obj_property name="label">INSTRUC_MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/InstructionMem1/address" type="array">
+         <obj_property name="ElementShortName">address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/InstructionMem1/instruction" type="array">
+         <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/InstructionMem1/instrmem" type="array">
+         <obj_property name="ElementShortName">instrmem[1023:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">instrmem[1023:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/InstructionMem1/temp" type="array">
+         <obj_property name="ElementShortName">temp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group121" type="group">
+      <obj_property name="label">REG_file</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/ReadRegister1" type="array">
+         <obj_property name="ElementShortName">ReadRegister1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadRegister1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/ReadRegister2" type="array">
+         <obj_property name="ElementShortName">ReadRegister2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadRegister2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/WriteRegister" type="array">
+         <obj_property name="ElementShortName">WriteRegister[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteRegister[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/WriteData" type="array">
+         <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/ReadData1" type="array">
+         <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/ReadData2" type="array">
+         <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/WriteEn" type="array">
+         <obj_property name="ElementShortName">WriteEn[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteEn[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Register_File/RegArray" type="array">
+         <obj_property name="ElementShortName">RegArray[0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">RegArray[0:31][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group513" type="group">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/PC" type="array">
+         <obj_property name="ElementShortName">PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/PCin" type="array">
+         <obj_property name="ElementShortName">PCin[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCin[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/PC4" type="array">
+         <obj_property name="ElementShortName">PC4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Instruction" type="array">
+         <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group509" type="group">
+      <obj_property name="label">ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/ID_PC4" type="array">
+         <obj_property name="ElementShortName">ID_PC4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_PC4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/ID_PC4" type="array">
+         <obj_property name="ElementShortName">ID_PC4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_PC4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/ID_Instruction" type="array">
+         <obj_property name="ElementShortName">ID_Instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_Instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/rs" type="array">
+         <obj_property name="ElementShortName">rs[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/rt" type="array">
+         <obj_property name="ElementShortName">rt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/rd" type="array">
+         <obj_property name="ElementShortName">rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group510" type="group">
+      <obj_property name="label">EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/EX_PC4" type="array">
+         <obj_property name="ElementShortName">EX_PC4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_PC4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/EX_Instruction" type="array">
+         <obj_property name="ElementShortName">EX_Instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_Instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/EX_ReadData1" type="array">
+         <obj_property name="ElementShortName">EX_ReadData1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_ReadData1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/EX_ReadData2" type="array">
+         <obj_property name="ElementShortName">EX_ReadData2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_ReadData2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/WB_WriteData" type="array">
+         <obj_property name="ElementShortName">WB_WriteData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WB_WriteData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/MEM_ALUResult" type="array">
+         <obj_property name="ElementShortName">MEM_ALUResult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ALUResult[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Bus_A_ALU" type="array">
+         <obj_property name="ElementShortName">Bus_A_ALU[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus_A_ALU[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Bus_B_forwarded" type="array">
+         <obj_property name="ElementShortName">Bus_B_forwarded[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus_B_forwarded[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/Bus_B_ALU" type="array">
+         <obj_property name="ElementShortName">Bus_B_ALU[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus_B_ALU[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/ForwardA" type="array">
+         <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/ForwardB" type="array">
+         <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/EX_ALUResult" type="array">
+         <obj_property name="ElementShortName">EX_ALUResult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_ALUResult[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group511" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/MEM_ALUResult" type="array">
+         <obj_property name="ElementShortName">MEM_ALUResult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ALUResult[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/MEM_WriteRegister" type="array">
+         <obj_property name="ElementShortName">MEM_WriteRegister[4:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_WriteRegister[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/MEM_ReadDataOfMem" type="array">
+         <obj_property name="ElementShortName">MEM_ReadDataOfMem[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ReadDataOfMem[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/MEM_MemtoReg" type="logic">
+         <obj_property name="ElementShortName">MEM_MemtoReg</obj_property>
+         <obj_property name="ObjectShortName">MEM_MemtoReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/MEM_RegWrite" type="logic">
+         <obj_property name="ElementShortName">MEM_RegWrite</obj_property>
+         <obj_property name="ObjectShortName">MEM_RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/MEM_RegWrite" type="logic">
+         <obj_property name="ElementShortName">MEM_RegWrite</obj_property>
+         <obj_property name="ObjectShortName">MEM_RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MIPSStimulus/myMIPS/MEM_MemWrite" type="logic">
+         <obj_property name="ElementShortName">MEM_MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MEM_MemWrite</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group514" type="group">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

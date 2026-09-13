@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_Control_Unit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Control_Unit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Data_Memory_Unit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Flush_Constr_Unit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/JR_Control_Unit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Mips_Pipeline_top_level.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_32bit_Buses.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_3to1_32bits.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/WB_Forwarding_Unit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/Zero_extention.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/instruction_memory_unit.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sources_1/new/signExtension_Shiftbytwo.v" \
+"../../../../MIPS_32bits_Pipeline.srcs/sim_1/new/Test_Bench_mips_pipeline.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

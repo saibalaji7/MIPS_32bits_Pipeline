@@ -1,0 +1,49 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MIPSStimulus_behav xil_defaultlib.MIPSStimulus xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 100fs
+Compiling module xil_defaultlib.D_FF
+Compiling module xil_defaultlib.RegBit
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.adder1bit
+Compiling module xil_defaultlib.Add
+Compiling module xil_defaultlib.InstructionMem
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.andmore
+Compiling module xil_defaultlib.dec5to32
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.mux32to1
+Compiling module xil_defaultlib.mux32x32to32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.CompareAddress
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.mux2x32to32
+Compiling module xil_defaultlib.WB_forward
+Compiling module xil_defaultlib.sign_extend
+Compiling module xil_defaultlib.zero_extend
+Compiling module xil_defaultlib.JRControl_Block
+Compiling module xil_defaultlib.Discard_Instr
+Compiling module xil_defaultlib.flush_block
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.mux3x32to32
+Compiling module xil_defaultlib.ALUControl_Block
+Compiling module xil_defaultlib.mux21
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.addsub
+Compiling module xil_defaultlib.alu1bit
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2x5to5
+Compiling module xil_defaultlib.dataMem
+Compiling module xil_defaultlib.StallControl
+Compiling module xil_defaultlib.shift_left_2
+Compiling module xil_defaultlib.MIPSpipeline
+Compiling module xil_defaultlib.MIPSStimulus
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MIPSStimulus_behav

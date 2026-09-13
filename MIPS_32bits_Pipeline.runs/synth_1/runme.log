@@ -1,0 +1,643 @@
+
+*** Running vivado
+    with args -log MIPSpipeline.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MIPSpipeline.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Jun 27 15:33:17 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source MIPSpipeline.tcl -notrace
+Command: synth_design -top MIPSpipeline -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22880
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 844.656 ; gain = 475.434
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'notcr31', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:45]
+INFO: [Synth 8-11241] undeclared symbol 'addsub31Out', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:50]
+INFO: [Synth 8-11241] undeclared symbol 'crrout31', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:50]
+INFO: [Synth 8-11241] undeclared symbol 'o1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:53]
+INFO: [Synth 8-11241] undeclared symbol 'o2', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:54]
+INFO: [Synth 8-11241] undeclared symbol 'o3', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:55]
+INFO: [Synth 8-11241] undeclared symbol 'o4', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:56]
+INFO: [Synth 8-11241] undeclared symbol 'o5', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:57]
+INFO: [Synth 8-11241] undeclared symbol 'o6', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:58]
+INFO: [Synth 8-11241] undeclared symbol 'o7', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:59]
+INFO: [Synth 8-11241] undeclared symbol 'o8', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:60]
+INFO: [Synth 8-11241] undeclared symbol 'o9', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:61]
+INFO: [Synth 8-11241] undeclared symbol 'o10', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:62]
+INFO: [Synth 8-11241] undeclared symbol 'addsubOut', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:70]
+INFO: [Synth 8-11241] undeclared symbol 'xorOut', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:71]
+INFO: [Synth 8-11241] undeclared symbol 'xorlessOut', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:72]
+INFO: [Synth 8-11241] undeclared symbol 'notb', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:80]
+INFO: [Synth 8-11241] undeclared symbol 'b1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:81]
+INFO: [Synth 8-11241] undeclared symbol 'c1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:93]
+INFO: [Synth 8-11241] undeclared symbol 'c2', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:94]
+INFO: [Synth 8-11241] undeclared symbol 'c3', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:95]
+INFO: [Synth 8-11241] undeclared symbol 'nsel', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:105]
+INFO: [Synth 8-11241] undeclared symbol 'O1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:106]
+INFO: [Synth 8-11241] undeclared symbol 'O2', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:107]
+INFO: [Synth 8-11241] undeclared symbol 'c1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v:53]
+INFO: [Synth 8-11241] undeclared symbol 'c2', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v:54]
+INFO: [Synth 8-11241] undeclared symbol 'c3', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v:55]
+INFO: [Synth 8-11241] undeclared symbol 'notflush', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Flush_Constr_Unit.v:15]
+INFO: [Synth 8-11241] undeclared symbol 'a', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'b', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:13]
+INFO: [Synth 8-11241] undeclared symbol 'x', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:14]
+INFO: [Synth 8-11241] undeclared symbol 'c', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:18]
+INFO: [Synth 8-11241] undeclared symbol 'd', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:19]
+INFO: [Synth 8-11241] undeclared symbol 'y', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:20]
+INFO: [Synth 8-11241] undeclared symbol 'notx', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:25]
+INFO: [Synth 8-11241] undeclared symbol 'b1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:29]
+INFO: [Synth 8-11241] undeclared symbol 'd1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:30]
+INFO: [Synth 8-11241] undeclared symbol 'x1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:31]
+INFO: [Synth 8-11241] undeclared symbol 'y1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:32]
+INFO: [Synth 8-11241] undeclared symbol 'notx1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'nsel', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v:21]
+INFO: [Synth 8-11241] undeclared symbol 'O1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v:22]
+INFO: [Synth 8-11241] undeclared symbol 'O2', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v:23]
+INFO: [Synth 8-11241] undeclared symbol 'f1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:181]
+INFO: [Synth 8-11241] undeclared symbol 'Nota', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:187]
+INFO: [Synth 8-11241] undeclared symbol 'Notb', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:188]
+INFO: [Synth 8-11241] undeclared symbol 'Notc', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:189]
+INFO: [Synth 8-11241] undeclared symbol 'Notd', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:190]
+INFO: [Synth 8-11241] undeclared symbol 'Note', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:191]
+INFO: [Synth 8-11241] undeclared symbol 'g3', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:270]
+INFO: [Synth 8-11241] undeclared symbol 'g4', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:271]
+INFO: [Synth 8-11241] undeclared symbol 'g5', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:272]
+INFO: [Synth 8-11241] undeclared symbol 'g6', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:273]
+INFO: [Synth 8-11241] undeclared symbol 'g7', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:274]
+INFO: [Synth 8-11241] undeclared symbol 'g8', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:275]
+INFO: [Synth 8-11241] undeclared symbol 'g9', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:276]
+INFO: [Synth 8-11241] undeclared symbol 'g10', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:277]
+INFO: [Synth 8-11241] undeclared symbol 'g11', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:278]
+INFO: [Synth 8-11241] undeclared symbol 'g12', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:279]
+INFO: [Synth 8-11241] undeclared symbol 'OrRsRt', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:37]
+INFO: [Synth 8-11241] undeclared symbol 'notOrRsRt', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:38]
+INFO: [Synth 8-11241] undeclared symbol 'OrRtRt', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'notOrRtRt', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:47]
+INFO: [Synth 8-11241] undeclared symbol 'ec1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:55]
+INFO: [Synth 8-11241] undeclared symbol 'ec2', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:63]
+INFO: [Synth 8-11241] undeclared symbol 'xorop', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:66]
+INFO: [Synth 8-11241] undeclared symbol 'xoroprt', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:67]
+INFO: [Synth 8-11241] undeclared symbol 'OrOut', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:68]
+INFO: [Synth 8-11241] undeclared symbol 'Condition', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:69]
+INFO: [Synth 8-11241] undeclared symbol 'orOut1', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/WB_Forwarding_Unit.v:29]
+INFO: [Synth 8-11241] undeclared symbol 'OrAddr', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/WB_Forwarding_Unit.v:53]
+INFO: [Synth 8-11241] undeclared symbol 'ID_flush', assumed default net type 'wire' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Mips_Pipeline_top_level.v:105]
+INFO: [Synth 8-6157] synthesizing module 'MIPSpipeline' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Mips_Pipeline_top_level.v:5]
+INFO: [Synth 8-6157] synthesizing module 'register' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:99]
+INFO: [Synth 8-6157] synthesizing module 'RegBit' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:85]
+INFO: [Synth 8-6157] synthesizing module 'D_FF' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'D_FF' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'RegBit' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:85]
+INFO: [Synth 8-6155] done synthesizing module 'register' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:99]
+INFO: [Synth 8-6157] synthesizing module 'Add' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'adder1bit' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'adder1bit' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'Add' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMem' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/instruction_memory_unit.v:6]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'instr.txt'; please make sure the file is added to project and has read permission, ignoring [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/instruction_memory_unit.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMem' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/instruction_memory_unit.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Control' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Control_Unit.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Control_Unit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:5]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:139]
+INFO: [Synth 8-6157] synthesizing module 'dec5to32' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:184]
+INFO: [Synth 8-6157] synthesizing module 'andmore' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:178]
+INFO: [Synth 8-6155] done synthesizing module 'andmore' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:178]
+INFO: [Synth 8-6155] done synthesizing module 'dec5to32' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:184]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:139]
+INFO: [Synth 8-6157] synthesizing module 'mux32x32to32' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:282]
+INFO: [Synth 8-6157] synthesizing module 'mux32to1' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:228]
+INFO: [Synth 8-6155] done synthesizing module 'mux32to1' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:228]
+INFO: [Synth 8-6155] done synthesizing module 'mux32x32to32' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:282]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v:5]
+INFO: [Synth 8-6157] synthesizing module 'WB_forward' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/WB_Forwarding_Unit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'CompareAddress' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/WB_Forwarding_Unit.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'CompareAddress' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/WB_Forwarding_Unit.v:40]
+INFO: [Synth 8-6157] synthesizing module 'mux2x32to32' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_32bit_Buses.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mux2_1' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'mux2_1' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x32to32' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_32bit_Buses.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'WB_forward' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/WB_Forwarding_Unit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'sign_extend' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/signExtension_Shiftbytwo.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'sign_extend' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/signExtension_Shiftbytwo.v:5]
+INFO: [Synth 8-6157] synthesizing module 'zero_extend' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Zero_extention.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'zero_extend' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Zero_extention.v:5]
+INFO: [Synth 8-6157] synthesizing module 'JRControl_Block' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/JR_Control_Unit.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'JRControl_Block' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/JR_Control_Unit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Discard_Instr' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Flush_Constr_Unit.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'Discard_Instr' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Flush_Constr_Unit.v:31]
+INFO: [Synth 8-6157] synthesizing module 'flush_block' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Flush_Constr_Unit.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'flush_block' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Flush_Constr_Unit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'ForwardingUnit' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardingUnit' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mux3x32to32' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_3to1_32bits.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mux3x32to32' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_3to1_32bits.v:5]
+INFO: [Synth 8-6157] synthesizing module 'ALUControl_Block' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_Control_Unit.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'ALUControl_Block' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_Control_Unit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'alu1bit' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:66]
+INFO: [Synth 8-6157] synthesizing module 'addsub' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:77]
+INFO: [Synth 8-6157] synthesizing module 'mux21' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:100]
+INFO: [Synth 8-6155] done synthesizing module 'mux21' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:100]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'addsub' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'alu1bit' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mux2x5to5' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x5to5' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dataMem' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Data_Memory_Unit.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dataMem' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Data_Memory_Unit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'StallControl' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'StallControl' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v:5]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_2' [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/signExtension_Shiftbytwo.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_2' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/signExtension_Shiftbytwo.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'MIPSpipeline' (0#1) [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Mips_Pipeline_top_level.v:5]
+WARNING: [Synth 8-3848] Net instrmem in module/entity InstructionMem does not have driver. [C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/instruction_memory_unit.v:10]
+WARNING: [Synth 8-4767] Trying to implement RAM 'datamem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "datamem_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port In32[31] in module shift_left_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In32[30] in module shift_left_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MemRead in module dataMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BussB[27] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[31] in module mux32to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[30] in module mux32to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[29] in module mux32to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[28] in module mux32to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[31] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[30] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[29] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[28] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[27] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[26] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[25] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[24] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[23] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[22] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[21] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[20] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[19] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[18] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[17] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[16] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[15] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[14] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[13] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[12] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[11] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[10] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[9] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[8] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[7] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[6] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[5] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[4] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[3] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[2] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[1] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[0] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[31] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[30] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[29] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[28] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[27] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[26] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[25] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[24] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[23] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[22] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[21] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[20] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[19] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[18] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[17] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[16] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[15] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[14] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[13] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[12] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[11] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[10] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[9] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[8] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[7] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[6] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[5] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[4] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[3] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[2] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[1] in module InstructionMem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[0] in module InstructionMem is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1197.293 ; gain = 828.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1197.293 ; gain = 828.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1197.293 ; gain = 828.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1197.293 ; gain = 828.070
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 97    
+	   2 Input      1 Bit         XORs := 79    
++---Registers : 
+	                8 Bit    Registers := 1024  
+	                1 Bit    Registers := 1435  
++---Muxes : 
+	   4 Input    8 Bit        Muxes := 512   
+	   2 Input    8 Bit        Muxes := 1020  
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1018  
+	   5 Input    1 Bit        Muxes := 720   
+	   4 Input    1 Bit        Muxes := 256   
+	   7 Input    1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7129] Port BussB[27] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[31] in module mux32to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[30] in module mux32to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[29] in module mux32to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[28] in module mux32to1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[31] in module mux32to1__31 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[30] in module mux32to1__31 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[29] in module mux32to1__31 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[28] in module mux32to1__31 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[31] in module mux32to1__30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[30] in module mux32to1__30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[29] in module mux32to1__30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[28] in module mux32to1__30 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[31] in module mux32to1__29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[30] in module mux32to1__29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[29] in module mux32to1__29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[28] in module mux32to1__29 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[31] in module mux32to1__28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[30] in module mux32to1__28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[29] in module mux32to1__28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[28] in module mux32to1__28 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[31] in module mux32to1__27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[30] in module mux32to1__27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[29] in module mux32to1__27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[28] in module mux32to1__27 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[31] in module mux32to1__26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[30] in module mux32to1__26 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In[29] in module mux32to1__26 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit30/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit28/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit29/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit28/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit28/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit26/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit27/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit26/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit26/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit24/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit25/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit24/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit24/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit22/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit23/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit22/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit22/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit20/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit21/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit20/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit20/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit18/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit19/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit18/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit18/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit16/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit17/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit16/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit16/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit14/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit15/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit14/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit14/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit12/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit13/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit12/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit12/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit10/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit11/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit10/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit10/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit8/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit9/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit8/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit8/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit6/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit7/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit6/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit6/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit4/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit5/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit4/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit4/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit2/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit3/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit2/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit2/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit0/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit1/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit0/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'Register_File/reg0/bit0/DFF0/q_reg' (FDC) to 'Register_File/reg0/bit31/DFF0/q_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg0/\bit31/DFF0/q_reg )
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit30/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit29/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit29/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit28/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit28/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit26/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit26/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit25/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit25/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit24/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit24/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit23/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit23/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit22/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit22/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit21/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit21/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit20/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit20/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit19/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit19/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit18/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit18/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit17/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit17/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit16/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Im16_Ext/bit16/DFF0/q_reg' (FDC) to 'IDEX_Im16_Ext/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'MEMWB_WriteRegister3/DFF0/q_reg' (FDC) to 'IDEX_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'MEMWB_WriteRegister1/DFF0/q_reg' (FDC) to 'IDEX_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_MemRead/DFF0/q_reg' (FDC) to 'IDEX_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_MemtoReg/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit25/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit23/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit21/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit19/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit17/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit15/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit13/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit11/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit12/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit14/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit16/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit18/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit20/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit22/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_rs_rt_rd/bit24/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_MemWrite/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'MEMWB_WriteRegister0/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'MEMWB_WriteRegister2/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'MEMWB_WriteRegister4/DFF0/q_reg' (FDC) to 'IDEX_Branch/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_RegWrite/DFF0/q_reg' (FDC) to 'IDEX_ALUOp1/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_Branch/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_JRControl/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit27/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_WriteDataOfMem/bit27/DFF0/q_reg' (FDC) to 'EXMEM_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit30/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit30/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_WriteDataOfMem/bit30/DFF0/q_reg' (FDC) to 'EXMEM_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit29/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit29/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_WriteDataOfMem/bit29/DFF0/q_reg' (FDC) to 'EXMEM_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit28/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit28/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_WriteDataOfMem/bit28/DFF0/q_reg' (FDC) to 'EXMEM_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit27/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit26/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit26/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_WriteDataOfMem/bit26/DFF0/q_reg' (FDC) to 'EXMEM_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit25/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit25/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_WriteDataOfMem/bit25/DFF0/q_reg' (FDC) to 'EXMEM_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit24/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit24/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_WriteDataOfMem/bit24/DFF0/q_reg' (FDC) to 'EXMEM_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit23/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit23/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_WriteDataOfMem/bit23/DFF0/q_reg' (FDC) to 'EXMEM_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit22/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit22/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'EXMEM_WriteDataOfMem/bit22/DFF0/q_reg' (FDC) to 'EXMEM_MemtoReg/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData1/bit21/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Synth 8-3886] merging instance 'IDEX_ReadData2/bit21/DFF0/q_reg' (FDC) to 'IDEX_ReadData2/bit31/DFF0/q_reg'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\IDEX_ReadData1/bit31/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg16/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg12/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg8/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg4/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg3/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg2/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg1/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg7/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg6/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg5/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg11/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg10/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg9/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg15/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg14/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg13/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg24/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg20/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg19/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg18/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg17/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg23/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg22/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg21/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg27/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg26/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg25/\bit30/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg16/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg12/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg8/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg4/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg3/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg2/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg1/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg7/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg6/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg5/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg11/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg10/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg9/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg15/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg14/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg13/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg24/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg20/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg19/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg18/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg17/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg23/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg22/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg21/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg27/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg26/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg25/\bit29/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg16/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg12/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg8/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg4/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg3/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg2/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg1/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg7/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg6/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg5/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg11/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg10/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg9/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg15/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg14/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg13/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg24/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg20/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg19/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg18/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg17/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg23/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg22/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg21/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg27/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg26/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg25/\bit28/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg16/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg12/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg8/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg4/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg3/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg2/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg1/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg7/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg6/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg5/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg11/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg10/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg9/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg15/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg14/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg13/\bit27/DFF0/q_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Register_File/reg24/\bit27/DFF0/q_reg )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:46 . Memory (MB): peak = 1291.375 ; gain = 922.152
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:08 ; elapsed = 00:01:47 . Memory (MB): peak = 1313.180 ; gain = 943.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:08 ; elapsed = 00:01:48 . Memory (MB): peak = 1313.180 ; gain = 943.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:11 ; elapsed = 00:01:51 . Memory (MB): peak = 1430.805 ; gain = 1061.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:11 ; elapsed = 00:01:51 . Memory (MB): peak = 1430.805 ; gain = 1061.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:11 ; elapsed = 00:01:51 . Memory (MB): peak = 1430.805 ; gain = 1061.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:11 ; elapsed = 00:01:51 . Memory (MB): peak = 1430.805 ; gain = 1061.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:11 ; elapsed = 00:01:51 . Memory (MB): peak = 1430.805 ; gain = 1061.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:11 ; elapsed = 00:01:51 . Memory (MB): peak = 1430.805 ; gain = 1061.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:11 ; elapsed = 00:01:51 . Memory (MB): peak = 1430.805 ; gain = 1061.582
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 175 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:11 ; elapsed = 00:01:51 . Memory (MB): peak = 1430.805 ; gain = 1061.582
+Synthesis Optimization Complete : Time (s): cpu = 00:01:11 ; elapsed = 00:01:51 . Memory (MB): peak = 1430.805 ; gain = 1061.582
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1430.832 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1521.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: afba2d81
+INFO: [Common 17-83] Releasing license: Synthesis
+358 Infos, 103 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:13 ; elapsed = 00:01:54 . Memory (MB): peak = 1521.898 ; gain = 1155.668
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.runs/synth_1/MIPSpipeline.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file MIPSpipeline_utilization_synth.rpt -pb MIPSpipeline_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 27 15:35:16 2025...

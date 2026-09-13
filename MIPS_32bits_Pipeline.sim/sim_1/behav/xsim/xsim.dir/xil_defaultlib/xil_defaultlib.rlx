@@ -1,0 +1,24 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sim_1/new/Test_Bench_mips_pipeline.v,1748791319,verilog,,,,MIPSStimulus,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_32bit.v,1769622674,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_Control_Unit.v,,adder;addsub;alu;alu1bit;mux21,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/ALU_Control_Unit.v,1769622674,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v,,ALUControl_Block,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Adder_32bit.v,1769622674,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Control_Unit.v,,Add;adder1bit,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Control_Unit.v,1746704904,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Data_Memory_Unit.v,,Control,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Data_Memory_Unit.v,1746704789,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Flush_Constr_Unit.v,,dataMem,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Flush_Constr_Unit.v,1746705887,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v,,Discard_Instr;flush_block,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Forwarding_Unit.v,1746705747,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/JR_Control_Unit.v,,ForwardingUnit,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/JR_Control_Unit.v,1746704956,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Mips_Pipeline_top_level.v,,JRControl_Block,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Mips_Pipeline_top_level.v,1746705971,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_32bit_Buses.v,,MIPSpipeline,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_32bit_Buses.v,1746704823,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v,,mux2x32to32,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_2to1_5bit_buses.v,1746704860,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_3to1_32bits.v,,mux2_1;mux2x5to5,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Multiplexer_3to1_32bits.v,1746705807,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v,,mux3x32to32,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Register_file.v,1746704712,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v,,D_FF;RegBit;andmore;dec5to32;decoder;mux32to1;mux32x32to32;regfile;register,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Stall_Control_Units.v,1746705850,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/WB_Forwarding_Unit.v,,StallControl,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/WB_Forwarding_Unit.v,1746705928,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Zero_extention.v,,CompareAddress;WB_forward,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/Zero_extention.v,1746704804,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/instruction_memory_unit.v,,zero_extend,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/instruction_memory_unit.v,1746764625,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/signExtension_Shiftbytwo.v,,InstructionMem,,,,,,,,
+C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sources_1/new/signExtension_Shiftbytwo.v,1746705304,verilog,,C:/Vivado_Projects/MIPS_32bits_Pipeline/MIPS_32bits_Pipeline.srcs/sim_1/new/Test_Bench_mips_pipeline.v,,shift_left_2;sign_extend,,,,,,,,
